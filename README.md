@@ -29,10 +29,10 @@ Rich preview links when shared via iMessage on iOS_macOS_watchOS.
 A wide variety of HTML elements commonly used in online Markdown writing (blockquotes, headers, tables, boxes/buttons, figure captions, code blocks, footnotes) have been styled.
 
 A single line added to a post's front matter can enable:
-- [ ] Adding categories or tags to a post.
-- [ ] Per-post author attribution.
-- [ ] The creation of **linked-list** style posts which link to external URLs, maintain a permalink and display a styled arrow to help indicate this to the reader.
-- [ ] Additional date line listing the last date a post was modified on.
+* Adding categories or tags to a post.
+* Per-post author attribution.
+* The creation of **linked-list** style posts which link to external URLs, maintain a permalink and display a styled arrow to help indicate this to the reader.
+* Additional date line listing the last date a post was modified on.
 
 ### Installation
 
