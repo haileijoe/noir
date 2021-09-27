@@ -1,7 +1,6 @@
 # Setup
-title: Noir
-tagline: a dark mode friendly Jekyll theme
-url: https://victorwynne.com/
+title: Hailei Joe
+url: https://haileijoe.com
 paginate: 1
 baseurl: ""
 permalink: :title/
@@ -37,11 +36,11 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Victor Wynne
-  url: https://twitter.com/_victorwynne
-  email: me@victorwynne.com
+  name: Hailei Joe
+  url: https://haileijoe.com/
+  email: me@haileijoe.com
 
 # Custom vars
 version: 1.3.0
 github:
-  repo: https://github.com/victorwynne/noir
+  repo: https://github.com/haileijoe/noir
