@@ -1,0 +1,242 @@
+body {         background-image: linear-gradient( to bottom, #3399cc, #c2e0f0, #3399cc);
+}
+
+* { box-sizing: border-box; }
+
+header  { background-color: #000033       ;
+        color: #FFFFFF    ;
+        font-family: Georgia, 'Times New Roman', Times, serif ;
+
+    }
+
+#wrapper { background-color: #000033 ;
+    min-width: 700px;
+    max-width: 1024px;
+    margin-left: auto ;
+    margin-right: auto;
+    width: 80% ;
+    box-shadow: 3px 2px 5px 0px black; 
+} 
+
+h1 { 
+    background-image: url(sunset.jpg); 
+    background-position: right;
+    background-repeat: no-repeat;
+    line-height: 200%;
+    padding-left: 20px ;
+    height:72px;
+    margin-bottom: 0%;
+
+}
+h2 {  color: #3399cc     ;
+    font-family: Georgia, 'Times New Roman', Times, serif    ;
+}
+
+h3 {
+    color: #000033
+}
+nav { font-weight: bold;
+    float: left;
+    padding: 5px;
+    width: 160px;
+    padding: 20px 5px 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+nav a:link     {
+    color: #FFFFFF;
+}
+
+nav a:visited {
+    color: #C2E0F0;
+}
+nav a:hover {
+    color: #CCCCCC
+}
+
+nav ul { 
+    list-style-type: none; 
+    padding-left: 0;
+    margin:0; 
+}
+
+main { 
+    background-color: #FFFFFF ; 
+    margin-left: 170px;
+    padding: 1px 20px;
+    display: block;
+    }
+
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: inline;
+}
+
+#homehero { 
+    height: 300px;
+    background-image: url(coast.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    margin-left: 170px;
+
+}
+#trailhero {    height: 300px;
+    background-image: url(trail.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    margin-left: 170px;
+}
+
+#yurthero {    height: 300px;
+    background-image: url(yurt.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    margin-left: 170px;
+}
+dt { font-weight: bold;
+    color: #000033; 
+}
+.resort { font-size: 1.2em;
+        color: #000033;
+}
+footer { font-size: .7em;
+    font-style: italic;
+    text-align : center; 
+    padding : 1em;
+    background-color: white; 
+    padding: 10px;
+    margin-left: 170px;
+}
+
+header, nav, main, footer {
+    display : block;
+}
+
+@media only screen and (max-width:1024px) {
+        
+        body { margin: 0px;
+        padding: 0px;
+        background-image: none;
+        }
+
+        #wrapper {
+            margin:0px;
+            width: auto;
+            min-width:0;
+            box-shadow: none;
+        }
+
+        h1 {
+            margin:0;
+        }
+
+        nav {
+            float: none;
+            width: auto;
+            padding-top: 0.01em;
+            padding-bottom: 0.01em;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+
+        nav ul {
+            display: inline-block;
+        }
+
+        nav a {
+            padding-right: 2em;
+        }
+
+        main {
+            padding: 1em;
+            margin-left: 0px;
+            font-size: 90%;
+        }
+
+        footer {
+            margin: 0;
+        }
+
+        #homehero {
+            margin-left:0;
+        }
+
+        #yurthero {
+            margin-left:0;
+        }
+
+        #trailhero {
+            margin-left:0;
+        }
+}
+
+@media only screen and (max-width: 768px) {
+        
+
+    h1 {
+        height: 100%;
+        font-size: 1.5em;
+        padding-left: 0.3em;
+    }
+
+    nav {
+        padding:0;
+    }
+
+    nav a {
+        display: block;
+        padding: 0.2em;
+        font-size: 1.1em;
+        border-bottom: 1px;
+        border-bottom-color: #330000;
+        padding: 0em; 
+    }
+
+    nav ul {
+        margin: 0;
+        padding:0;
+    }
+
+    nav li {
+        display: block;
+        margin:0;
+        padding:0;
+    }
+
+    main {
+        padding-top: .1em;
+        padding-right:0.6em;
+        padding-bottom:0.1em;
+        padding-left: 0.4em;
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    #homehero {
+        display: none;
+    }
+
+    #yurthero {
+        display: none;
+    }
+
+    #trailhero {
+        display: none;
+    }
+
+    #mobile {
+        display: inline; 
+    }
+
+    #desktop {
+        display: none;
+    }
+
+}
