@@ -3,6 +3,7 @@ layout: page
 title: Resume
 ---
 
+
 You can also download my resume in .docx format [here](https://haileijoe.com/resume.docx)
 
 ## Accomplishments
