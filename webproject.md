@@ -4,7 +4,7 @@ title: Web Project
 ---
 
 <p class="message">
-  This information also located in `/WebProjectCH5_6/Documentation/`
+  This information also located in /WebProjectCH5_6/Documentation/
 </p>
 
 
