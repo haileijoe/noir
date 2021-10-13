@@ -46,7 +46,7 @@ The NPS has a whole listing of them nationwide. It is easy to use, however it is
 ### Site Map
 
 <figure>
-  <img src="/documentation/sitemap.jpg" alt="Site Map">
+  <img src="/assets/sitemap.jpg" alt="Site Map">
   <figcaption>Available as an XML file located in /WebProjectCH5_6/</figcaption>
 </figure>
 
