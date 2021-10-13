@@ -50,3 +50,9 @@ The NPS has a whole listing of them nationwide. It is easy to use, however it is
   <figcaption>Available as an XML file located in /WebProjectCH5_6/</figcaption>
 </figure>
 
+### Color Scheme
+
+<figure>
+  <img src="/assets/color_scheme.jpeg" alt="Color Scheme">
+  <figcaption>The layout of this page is the basis for the finished design. Color scheme ideas are subject to change.</figcaption>
+</figure>
